@@ -1,0 +1,32 @@
+# Point clouds — too big for git, regenerate from source URLs or partner capture
+*.laz
+*.las
+
+# Generated rasters — regenerable from the LAZ via process_cloud.py + build_costmap.py
+*.tif
+*.tif.aux.xml
+
+# Preview renders — regenerable from preview_layers.py
+preview.png
+*.png
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Misc local
+/tmp_*
+share.html
+share*.html
+*.log
